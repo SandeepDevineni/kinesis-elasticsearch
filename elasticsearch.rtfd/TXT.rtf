@@ -1,0 +1,60 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue254;\red144\green1\blue18;
+\red9\green60\blue148;\red19\green118\blue70;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c99608;\cssrgb\c63922\c8235\c8235;
+\cssrgb\c1569\c31765\c64706;\cssrgb\c3529\c52549\c34510;}
+\margl1440\margr1440\vieww28600\viewh15360\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 open distro\
+\
+- it is an initiative from AWS and uses elastic search version 7.7.0\
+- contains some security features like encryption of data when transmitted from clients or nodes between the cluster, we can leverage our existing authentication\
+infrastructure as json web tokens or tls certificates for user authentication and we can also record and track all the actions performed by the users in our elastic search cluster \
+and monitor any suspicious activity\
+- we can monitor our data and send alert notifications\
+- we can customize the index state management policies and user can define the actions for each state\
+- we can also keep a track of operations performed using index state management in form of logs\
+ \
+\
+\
+elastic.co\
+\
+- has latest elastic search version 7.8.0\
+- it helps us to run an aggregation that finds the bounding box that contains all shapes matching a query. A shape can be anything that is defined by multiple points.\
+- we can group geo points into buckets.\
+- it will now support t-test aggregation and perform a satistical hypothesis test\
+- we can now fetch a count of aggregations that are executed using node features API\
+- it now supports value_count and avg aggregations over histogram fields\
+- elasticsearch now attempts to save memory on the coordinating node by delaying deserialization of the shard results for an aggregation until the last second.\
+- scalar functions can now be supported in SQL aggregations\
+- with throttling we can now increase performance and scalability of transforms\
+- loss functions are added for regression\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 {{\NeXTGraphic open_distro_comparison_table-2.png \width12460 \height11420 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\
+\
+\
+\
+\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \{\cb1 \
+\cb3     \cf4 \strokec4 "_index"\cf2 \strokec2 : \cf5 \strokec5 "index1"\cf2 \strokec2 ,\cb1 \
+\cb3     \cf4 \strokec4 "_type"\cf2 \strokec2 : \cf5 \strokec5 "_doc"\cf2 \strokec2 ,\cb1 \
+\cb3     \cf4 \strokec4 "_id"\cf2 \strokec2 : \cf5 \strokec5 "doc1"\cf2 \strokec2 ,\cb1 \
+\cb3     \cf4 \strokec4 "_version"\cf2 \strokec2 : \cf6 \strokec6 1\cf2 \strokec2 ,\cb1 \
+\cb3     \cf4 \strokec4 "result"\cf2 \strokec2 : \cf5 \strokec5 "created"\cf2 \strokec2 ,\cb1 \
+\cb3     \cf4 \strokec4 "_shards"\cf2 \strokec2 : \{\cb1 \
+\cb3         \cf4 \strokec4 "total"\cf2 \strokec2 : \cf6 \strokec6 2\cf2 \strokec2 ,\cb1 \
+\cb3         \cf4 \strokec4 "successful"\cf2 \strokec2 : \cf6 \strokec6 1\cf2 \strokec2 ,\cb1 \
+\cb3         \cf4 \strokec4 "failed"\cf2 \strokec2 : \cf6 \strokec6 0\cf2 \cb1 \strokec2 \
+\cb3     \},\cb1 \
+\cb3     \cf4 \strokec4 "_seq_no"\cf2 \strokec2 : \cf6 \strokec6 0\cf2 \strokec2 ,\cb1 \
+\cb3     \cf4 \strokec4 "_primary_term"\cf2 \strokec2 : \cf6 \strokec6 1\cf2 \cb1 \strokec2 \
+\cb3 \}\cb1 \
+}
